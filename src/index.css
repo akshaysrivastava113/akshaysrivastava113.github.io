@@ -6,6 +6,19 @@ body {
   display: flex;
   background-color: aliceblue;
   justify-content: center;
-  align-items: center;
+  align-items: space-between;
   height: 100vh;
+  background-color: #fffff8;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+#root{
+  width: 100%;
+}
+
+.nav-link-style {
+  padding: 10px;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 20px;
 }
