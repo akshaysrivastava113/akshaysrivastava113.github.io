@@ -8,6 +8,7 @@ export default function Header() {
         <a className="nav-link-style hover:text-blue-400 hover:cursor-pointer" onClick={() => {navigate("/")}}>Home</a>
         </div>
         <div>
+        <a className="nav-link-style hover:text-blue-400 hover:cursor-pointer" onClick={() => {navigate("/projects")}}>Projects</a>
             <a className="nav-link-style hover:text-blue-400 hover:cursor-pointer" onClick={() => {navigate("/posts")}}>Posts</a>
             <a className="nav-link-style hover:text-blue-400 hover:cursor-pointer" onClick={() => {navigate("/about")}}>About</a>
         </div>
